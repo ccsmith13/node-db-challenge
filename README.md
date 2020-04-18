@@ -40,11 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+A relational database manages storage, querying, updating, etc. 
+SQL is a language used to query the database. It is the language used to interact with it. 
+
 - [ ] Why do tables need a `primary key`?
+
+Accessibility, ensures each row has at least one unique value / key 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+Join table / join
 
 ## Minimum Viable Product
 
@@ -62,13 +71,15 @@ Complete the following tasks:
   - [ ] when adding a `task` the client must provide a description, the notes are optional.
   - [ ] when adding a `task` the client must provide the `id` of an existing project.
   - [ ] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
+  //sorry, i called this the status property instead of completed 
+
 - [ ] Build an API with endpoints for:
-  - [ ] adding resources.
-  - [ ] retrieving a list of resources.
-  - [ ] adding projects.
-  - [ ] retrieving a list of projects.
-  - [ ] adding tasks.
-  - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
+  - [X] adding resources.
+  - [X] retrieving a list of resources.
+  - [X] adding projects.
+  - [X] retrieving a list of projects.
+  - [X] adding tasks.
+  - [X] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
 
